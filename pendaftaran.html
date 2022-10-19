@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran</title>
+    <hr>
+    <nav>
+        <a href="index.html">Beranda</a> |
+        <a href="about.html">Tentang Kami</a> |
+        <a href="pendaftaran.html">Pendaftaran</a> |
+        <a href="biayakuliah.html">Biaya Kuliah</a> |
+        <a href="beasiswa.html">Beasiswa</a> |
+        <a href="kontak.html">Kontak</a> |
+    </nav>
+    <hr>
+</head>
+<body>
+
+    <form action="" method="post">
+    <h1>UNKLAB Registration Form for New Student</h1>
+    <p>Registration Number: 
+        <input type="text" name="regisNum1" id="regisNum1" maxlength="1" size="1">
+        <input type="text" name="regisNum2" id="regisNum2" maxlength="1" size="1">
+        <input type="text" name="regisNum3" id="regisNum3" maxlength="1" size="1">
+        <input type="text" name="regisNum4" id="regisNum4" maxlength="1" size="1">
+        <input type="text" name="regisNum5" id="regisNum5" maxlength="1" size="1">
+        <input type="text" name="regisNum6" id="regisNum6" maxlength="1" size="1">
+        <input type="text" name="regisNum7" id="regisNum7" maxlength="1" size="0.5f">
+        <input type="text" name="regisNum8" id="regisNum8" maxlength="1" size="1">
+    </p>
+
+
+<fieldset>
+    <legend>Personal Information</legend>
+    <table> 
+        <tr>
+            <td>Full Name</td>
+            <td>:</td>
+            <td colspan="2"><input type="text" name="FullName" id="FullName"></td>
+            <td>&nbsp;</td>
+            
+        </tr>
+        <tr>
+            <td>Birthplace</td>
+            <td>:</td>
+            <td><input type="text" name="BirthPlace" id="BirthPlace"></td>
+            <td>Date of Birth</td>
+            <td>:</td>
+            <td><input type="date" name="dateBirth" id="dateBirth"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>:</td>
+            <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female</td>
+            <td>Blood Type</td>
+            <td>:</td>
+            <td><input type="radio" name="blood" value="A">A
+                <input type="radio" name="blood" value="B">B
+                <input type="radio" name="blood" value="AB">AB
+                <input type="radio" name="blood" value="O">O</td>
+        </tr>
+        <tr>
+            <td>Tribe</td>
+            <td>:</td>
+            <td><input type="text" name="tribe" id="tribe"></td>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td>Telephone Number</td>
+            <td>:</td>
+            <td><input type="tel" name="telp" id="telp"></td>
+            <td>Mobile Number</td>
+            <td>:</td>
+            <td><input type="tel" name="mobile" id="mobile"></td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>:</td>
+            <td><select name="status" id="status">
+                <option value="single">Single</option>
+            </select></td>
+            <td>Religion</td>
+            <td>:</td>
+            <td><select name="religion" id="religion">Seventh day Adventist
+                <option value="advent">Seventh day Adventist</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Home Address</td>
+            <td>:</td>
+            <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+
+        </tr>
+        <tr>
+            <td>Postal Code</td>
+            <td>:</td>
+            <td><input type="number" name="postal" id="postal"></td>
+        </tr>
+    </table>
+</fieldset>
+    
+<fieldset>
+    <legend>School's information</legend>
+    <table>
+        <tr>
+            <td>High school's Name</td>
+            <td>:</td>
+            <td><input type="text" name="schoolname" id="schoolname"></td>
+        </tr>
+        <tr>
+            <td>Program</td>
+            <td>:</td>
+            <td><input type="text" name="program" id="program"></td>
+            <td>Telephone Number</td>
+            <td>:</td>
+            <td><input type="tel" name="telp1" id="telp1"></td>
+        </tr>
+        <tr>
+            <td>School's Address</td>
+            <td>:</td>
+            <td><textarea name="schooladdress" id="schooladdress" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>Postal Code</td>
+            <td>:</td>
+            <td><input type="number" name="postal1" id="postal1"></td>
+        </tr>
+    </table>
+</fieldset>
+<fieldset>
+    <legend>Parent information</legend>
+    <table>
+
+        <tr>
+            <td>Father's Name</td>
+            <td>:</td>
+            <td><input type="text" name="fathername" id="fathername"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td>:</td>
+            <td><input type="tel" name="mobileNum1" id="mobileNum1"></td>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="email" name="email1" id="email1"></td>
+        </tr>
+        <tr>
+            <td>Education</td>
+            <td>:</td>
+            <td><select name="education" id="education">Elementary
+                <option value="elemtary">Elementary</option>
+            </select></td>
+            <td>Religion</td>
+            <td>:</td>
+            <td><select name="reigion1" id="religion1">
+                <option value="SDA">SDA</option>
+            </select></td>    
+        </tr>
+        <tr>
+            <td>Mother's Name</td>
+            <td>:</td>
+            <td><input type="text" name="mothername" id="mothername"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td>:</td>
+            <td><input type="tel" name="mobileNum2" id="mobileNum2"></td>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="email" name="email2" id="email2"></td>
+        </tr>
+        <tr>
+            <td>Education</td>
+            <td>:</td>
+            <td><select name="education1" id="education1">Elementary
+                <option value="elemtary1">Elementary</option>
+            </select></td>
+            <td>Religion</td>
+            <td>:</td>
+            <td><select name="reigion2" id="religion2">
+                <option value="SDA1">SDA</option>
+            </select></td>
+            
+        </tr>
+    </table>
+</fieldset>
+<fieldset>
+    <legend>Parent's Carer's Information</legend>
+    <table>
+       
+        <tr>
+            <td>Full Name</td>
+            <td>:</td>
+            <td><input type="text" name="fullname" id="fullname"></td>
+        </tr>
+        <tr>
+            <td>Family Relation</td>
+            <td>:</td>
+            <td><input type="text" name="relation" id="relation"></td>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="email" name="email3" id="email3"></td>
+        </tr>
+        <tr>
+            <td>Home Phone Number</td>
+            <td>:</td>
+            <td><input type="tel" name="HomeHum" id="HomeNum"></td>
+            <td>Mobile Number</td>
+            <td>:</td>
+            <td><input type="tel" name="mobileNum1" id="mobileNum1"></td>
+        </tr>
+        <tr>
+            <td>Education</td>
+            <td>:</td>
+            <td><select name="education2" id="education2">Elementary
+                <option value="elemtary2">Elementary</option>
+            </select></td>
+            <td>Religion</td>
+            <td>:</td>
+            <td><select name="reigion3" id="religion3">
+                <option value="SDA2">SDA</option>
+            </select></td>
+        </tr>
+    </table>
+</fieldset>
+
+    <input type="checkbox" name="statement" id="statement">
+    <p>I hereby state that all information on this New Student Registration Form are complete and true.
+        All contents on this form I submitted to Universitas Klabat and Universitas Klabat aare not obligade to return it.</p>
+    <p>Airmadidi,<input type="date" name="date9" id="date9"></p>
+    <input type="button" value="Reset Form">
+    <input type="button" value="Register">
+
+</form>
+    <hr>
+    <p>Copyright WebDesign Course UNKLAB © 2022</p>
+</body>
+</html>
